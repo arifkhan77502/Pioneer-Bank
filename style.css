@@ -1,0 +1,56 @@
+body{
+    padding: 100px;
+}
+
+/* ======================= Login Area ======================= */
+.submitArea{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    /* display: none; */
+}
+
+/* #loginArea {
+    display: none;
+} */
+
+.action{
+    width: 5em;
+}
+/* ========================================================= */
+
+
+
+/* ======================= Transaction Area =====================*/
+#transactionArea{
+    display: none;
+}
+
+.deposit{
+    background-color: slateblue;
+}
+
+.withdraw{
+    background-color: lightsalmon;
+}
+
+.balance{
+    background-color: orange;
+}
+
+.deposit, .withdraw, .balance{
+    padding: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.transaction{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px;
+}
+/* ======================================================== */
